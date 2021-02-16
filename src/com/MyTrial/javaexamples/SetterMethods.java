@@ -1,5 +1,5 @@
 package com.MyTrial.javaexamples;
-class robot{
+class robot1{
     private String name;
     private int age;
    public void setname(String name){
@@ -15,7 +15,7 @@ class robot{
 
 public class SetterMethods {
     public static void main(String[] args){
-        robot robo = new robot();
+        robot1 robo = new robot1();
         robo.setname("rahul");
         robo.setage(27);
 
