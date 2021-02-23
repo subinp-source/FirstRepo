@@ -28,5 +28,6 @@ public class Carconst {
      car car2=new car(car1);
      System.out.println("the color of the car is "+car2.showcolor());
      System.out.println("the age of the car is "+car2.showage());
+
     }
 }
