@@ -6,7 +6,7 @@ public class StringBuilder1 {
         StringBuilder s = new StringBuilder();
         s.append("how are you. ");
         s.append("iam reay to do that.").append("\teverything is ready");
-        System.out.println(s);
+        System.out.println(s.toString());
         //formatting integer
         System.out.printf("the age is %d\n",45);
         System.out.printf("height is about %5d",160);
