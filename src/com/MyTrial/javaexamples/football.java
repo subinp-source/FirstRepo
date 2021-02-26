@@ -1,5 +1,4 @@
 package com.MyTrial.javaexamples;
-
 public class football {
     protected String name="the beautiful game";
     public void showsport(){
