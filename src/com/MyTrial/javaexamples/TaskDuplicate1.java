@@ -1,19 +1,19 @@
 package com.MyTrial.javaexamples;
 import java.util.Scanner;
 class AutoDuplicate{
-    public void autoduplicate(char abc[]){
+    public void autoduplicate(char text[]){
         int count;
-        for(int i = 0; i <abc.length; i++) {
+        for(int i = 0; i <text.length; i++) {
             count = 1;
-            for(int j = i+1; j <abc.length; j++) {
-                if(abc[i] == abc[j] && abc[i] != ' ') {
+            for(int j = i+1; j <text.length; j++) {
+                if(text[i] == text[j] && text[i] != ' ') {
                     count++;
-                    abc[j] = '0';
+                    text[j] = '0';
                 }
             }
 
-            if(count > 1 && abc[i] != '0')
-                System.out.println(abc[i] +" "+count);
+            if(count > 1 && text[i] != '0')
+                System.out.println(text[i] +" "+count);
         }
     }
 }
