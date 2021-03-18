@@ -19,7 +19,6 @@ class AutoDuplicate{
 }
 public class TaskDuplicate1 {
     public static void main(String[] args) {
-        int count;
         Scanner output = new Scanner(System.in);
         System.out.println("enter the sentence");
         String input = output.nextLine();
